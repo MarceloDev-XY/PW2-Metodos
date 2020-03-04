@@ -5,10 +5,10 @@ public class Exemplos {
 		int idade = 18;
 
 		if (idade >= 18) {
-			System.out.println("Maior de idade");
+			System.out.println("Maior de idade" + " " + idade);
 
 		} else {
-			System.out.println("Menor de idade");
+			System.out.println("Menor de idade" + "" + idade);
 
 		}
 	}
